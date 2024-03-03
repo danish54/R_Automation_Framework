@@ -6,7 +6,7 @@
 		<listener class-name="resources.Listeners"></listener>
 	</listeners>
 
-	<test name="VerifyLink">
+	<test parallel="true" name="VerifyLink">
 		<parameter name="browser" value="chrome" />
 		<groups>
 			<run>

@@ -8,7 +8,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class Listeners implements ITestListener {
+public class Listeners extends BaseClass implements ITestListener {
 
 	ExtentTest test;
 	ExtentReports extent = ExtendReportsNG.getExtentReportsObject();
@@ -27,7 +27,9 @@ public class Listeners implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		extentTest.get().log(Status.FAIL, "Test Failed");
+		extentTest.get().log(Status.FAIL, result.getThrowable());
+		
+		
 	}
 
 	@Override

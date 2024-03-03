@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="VerifyLink(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Action_T">
+        <methods>
+          <include name="RadioVutton_3"/>
+          <include name="launchBroswe"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.Action_T -->
+    </classes>
+  </test> <!-- VerifyLink(failed) -->
+</suite> <!-- Failed suite [Regression] -->
