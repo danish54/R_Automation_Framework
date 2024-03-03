@@ -34,13 +34,22 @@ public class Utilities {
 	}
 
 	public void SetupBrowser(String broswename) {
-		if (broswename.equalsIgnoreCase("chrome")) {
+		if (broswename == null || broswename.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			driver.set(new ChromeDriver(options));
 			driver.get().manage().window().maximize();
 			driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
+		else  {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver.set(new ChromeDriver(options));
+			driver.get().manage().window().maximize();
+			driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
+		}
+		
 	}
 
 	public void openUrl(String url) {
