@@ -15,8 +15,8 @@
     <classes>
       <class name="testCases.Action_T">
         <methods>
-          <include name="RadioVutton_3"/>
           <include name="launchBroswe"/>
+          <include name="testLink"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- testCases.Action_T -->

@@ -27,8 +27,7 @@ public class Listeners extends BaseClass implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		extentTest.get().log(Status.FAIL, result.getThrowable());
-		
+		extentTest.get().fail(result.getThrowable());
 		
 	}
 

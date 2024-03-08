@@ -11,14 +11,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Utilities {
 
-	static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
 	static Utilities util;
 	static FileInputStream fis;
 	static Properties prop;
 
-	private Utilities() {
-
+	public Utilities(){
+		
 	}
 	
 	// This will return utilities object

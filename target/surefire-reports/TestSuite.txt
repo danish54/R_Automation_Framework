@@ -1,14 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.59 s <<< FAILURE! -- in TestSuite
-testCases.Action_T.RadioVutton_3 -- Time elapsed: 0.029 s <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.Action_T.RadioVutton_3(Action_T.java:27)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.003 s <<< FAILURE! -- in TestSuite
+testCases.Action_T.testLink -- Time elapsed: 0.247 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" because "matchingLinks" is null
+	at pageobjects.HomePage.getLink(HomePage.java:30)
+	at testCases.Action_T.testLink(Action_T.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

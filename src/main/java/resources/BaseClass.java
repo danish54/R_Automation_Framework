@@ -9,7 +9,7 @@ import org.testng.annotations.Parameters;
 
 
 public class BaseClass   {
-	 Utilities util = Utilities.getObject();
+	 public static Utilities util = Utilities.getObject();
 	
 	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
