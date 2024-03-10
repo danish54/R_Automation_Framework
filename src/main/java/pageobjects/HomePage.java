@@ -1,5 +1,6 @@
 package pageobjects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
@@ -13,7 +14,8 @@ public class HomePage {
 	Utilities util;
 
 	public HomePage(Utilities util) {
-		this.util = Utilities.getObject();
+		util = Utilities.getObject();
+		this.util = util;
 
 		// failing
 		PageFactory.initElements(util.getDriver(), this);
@@ -23,7 +25,7 @@ public class HomePage {
 	List<WebElement> links;
 
 	public List<String> getLink() {
-		List<String> matchingLinks = null;
+		List<String> matchingLinks = new ArrayList<>();
 		for (WebElement link : links) {
 			if (link.getAttribute("href") != null) {
 				matchingLinks.add(link.getAttribute("href"));

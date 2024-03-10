@@ -12,7 +12,17 @@ public class Listeners extends BaseClass implements ITestListener {
 
 	ExtentTest test;
 	ExtentReports extent = ExtendReportsNG.getExtentReportsObject();
-	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	
+	public static ExtentTest getExtent() {
+		
+		return extentTest.get();
+	}
+	
+	public static Listeners getObject() {
+		Listeners lsner = new Listeners();
+		return lsner;
+	}
 
 	@Override
 	public void onTestStart(ITestResult result) {
