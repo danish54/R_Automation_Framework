@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases.LinkReponseTest">
         <methods>
-          <include name="reponseTest"/>
+          <include name="radioButtonCLick"/>
         </methods>
       </class> <!-- testCases.LinkReponseTest -->
     </classes>

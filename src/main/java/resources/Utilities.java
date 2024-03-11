@@ -43,21 +43,14 @@ public class Utilities {
 
 	public void SetupBrowser(String broswename) {
 		if (broswename == null || broswename.equalsIgnoreCase("chrome")) {
+			System.out.println("Broswer name insdside if block=--> "+broswename);
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			driver.set(new ChromeDriver(options));
+			System.out.println("Lauching broswer from if Block");
 			driver.get().manage().window().maximize();
 			driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
-		else  {
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			driver.set(new ChromeDriver(options));
-			driver.get().manage().window().maximize();
-			driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-			
-		}
-		
 	}
 
 	public void openUrl(String url) {
