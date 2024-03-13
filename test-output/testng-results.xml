@@ -2,29 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T12:27:26 IST" name="Suite" finished-at="2024-03-11T12:27:43 IST" duration-ms="17305">
+  <suite started-at="2024-03-13T17:19:47 IST" name="Default suite" finished-at="2024-03-13T17:19:55 IST" duration-ms="8657">
     <groups>
     </groups>
-    <test started-at="2024-03-11T12:27:26 IST" name="Test" finished-at="2024-03-11T12:27:43 IST" duration-ms="17305">
-      <class name="testCases.LinkReponseTest">
-        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.LinkReponseTest@5dd91bca]" started-at="2024-03-11T12:27:26 IST" name="launchBroswe" finished-at="2024-03-11T12:27:28 IST" duration-ms="2117" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test started-at="2024-03-13T17:19:47 IST" name="Default test" finished-at="2024-03-13T17:19:55 IST" duration-ms="8657">
+      <class name="rough.BrokenLink">
+        <test-method signature="CheckBrokenLink()[pri:0, instance:rough.BrokenLink@3527942a]" started-at="2024-03-13T17:19:47 IST" name="CheckBrokenLink" finished-at="2024-03-13T17:19:55 IST" duration-ms="8594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBroswe -->
-        <test-method signature="radioButtonCLick()[pri:0, instance:testCases.LinkReponseTest@5dd91bca]" started-at="2024-03-11T12:27:28 IST" name="radioButtonCLick" finished-at="2024-03-11T12:27:41 IST" duration-ms="13037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioButtonCLick -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.LinkReponseTest@5dd91bca]" started-at="2024-03-11T12:27:41 IST" name="teardown" finished-at="2024-03-11T12:27:43 IST" duration-ms="2119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.LinkReponseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CheckBrokenLink -->
+      </class> <!-- rough.BrokenLink -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
