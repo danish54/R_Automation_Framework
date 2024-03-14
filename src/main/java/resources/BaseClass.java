@@ -14,11 +14,7 @@ public class BaseClass   {
 	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
 	public void launchBroswe(@Optional String browser) throws IOException {
-		System.out.println("Inside launch broswe");
 		util.SetupBrowser(browser);
-		System.out.println("Broswer from TestNg is Null:--->"+browser);
-		util.openUrl(util.getConfigProperty("url"));
-			
 		}
 	@AfterMethod(alwaysRun = true)
 	public void teardown() throws InterruptedException{

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rough.BrokenLink">
+      <class name="testCases.Action_T">
         <methods>
-          <include name="CheckBrokenLink"/>
+          <include name="downloadUploadTest"/>
+          <include name="launchBroswe"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- rough.BrokenLink -->
+      </class> <!-- testCases.Action_T -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
