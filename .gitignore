@@ -1,3 +1,9 @@
 /target/**
 /test-output/**
 /target/
+Logs/*
+Reports/*
+.classpath
+.metadata/*
+.project
+.settings/*
