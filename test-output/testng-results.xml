@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="0" failed="1" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <suite started-at="2024-03-15T14:31:37 IST" name="Default suite" finished-at="2024-03-15T14:31:51 IST" duration-ms="13323">
+  <suite started-at="2024-03-15T16:38:13 IST" name="Default suite" finished-at="2024-03-15T16:38:42 IST" duration-ms="29873">
     <groups>
     </groups>
-    <test started-at="2024-03-15T14:31:37 IST" name="Default test" finished-at="2024-03-15T14:31:51 IST" duration-ms="13323">
+    <test started-at="2024-03-15T16:38:13 IST" name="Default test" finished-at="2024-03-15T16:38:42 IST" duration-ms="29873">
       <class name="testCases.Action_T">
-        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:37 IST" name="launchBroswe" finished-at="2024-03-15T14:31:42 IST" duration-ms="4316" status="PASS">
-=======
-  <suite started-at="2024-03-15T14:31:46 IST" name="Default suite" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-    <groups>
-    </groups>
-    <test started-at="2024-03-15T14:31:46 IST" name="Default test" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-      <class name="testCases.Action_T">
-        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
->>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
-=======
-  <suite started-at="2024-03-15T14:31:46 IST" name="Default suite" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-    <groups>
-    </groups>
-    <test started-at="2024-03-15T14:31:46 IST" name="Default test" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-      <class name="testCases.Action_T">
-        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
->>>>>>> 80217e9f6e1989ed533b2239fb50c129cbae4b5f
-=======
-  <suite started-at="2024-03-15T14:31:46 IST" name="Default suite" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-    <groups>
-    </groups>
-    <test started-at="2024-03-15T14:31:46 IST" name="Default test" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
-      <class name="testCases.Action_T">
-        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
->>>>>>> a8986547ce4b16319ef38e91727e31e3556766d6
+        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T16:38:13 IST" name="launchBroswe" finished-at="2024-03-15T16:38:30 IST" duration-ms="17292" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -43,110 +16,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBroswe -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:42 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:48 IST" duration-ms="6749" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[invalid argument: File not found : C:\Users\danish2545\eclipse-workspace\R_Automation\src\test\resources\TestData\download.xlsx
-  (Session info: chrome=122.0.6261.129)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [942886348d2fe1a48203ecd4cacc8759, sendKeysToElement {id=f.0E3771AB835BEC5472ED0DB047FBA5B1.d.9B2AED681D27E862CFEED19A608D1683.e.6, value=[Ljava.lang.CharSequence;@7fc645e4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\DANISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50967/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (942886348d2fe1a48203ecd4cacc8759)] -> xpath: //input[@id="fileinput"]]
-Session ID: 942886348d2fe1a48203ecd4cacc8759]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\danish2545\eclipse-workspace\R_Automation\src\test\resources\TestData\download.xlsx
-  (Session info: chrome=122.0.6261.129)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [942886348d2fe1a48203ecd4cacc8759, sendKeysToElement {id=f.0E3771AB835BEC5472ED0DB047FBA5B1.d.9B2AED681D27E862CFEED19A608D1683.e.6, value=[Ljava.lang.CharSequence;@7fc645e4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\DANISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50967/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (942886348d2fe1a48203ecd4cacc8759)] -> xpath: //input[@id="fileinput"]]
-Session ID: 942886348d2fe1a48203ecd4cacc8759
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-at pageobjects.DownloadUploadPage.UploadFile(DownloadUploadPage.java:36)
-at testCases.Action_T.downloadUploadTest(Action_T.java:49)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T16:38:30 IST" name="downloadUploadTest" finished-at="2024-03-15T16:38:40 IST" duration-ms="10285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadUploadTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:48 IST" name="teardown" finished-at="2024-03-15T14:31:51 IST" duration-ms="2185" status="PASS">
-=======
-        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:48 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:54 IST" duration-ms="5716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadUploadTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
->>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
-=======
-        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:48 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:54 IST" duration-ms="5716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadUploadTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
->>>>>>> 80217e9f6e1989ed533b2239fb50c129cbae4b5f
-=======
-        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:48 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:54 IST" duration-ms="5716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadUploadTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
->>>>>>> a8986547ce4b16319ef38e91727e31e3556766d6
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T16:38:40 IST" name="teardown" finished-at="2024-03-15T16:38:42 IST" duration-ms="2249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -6,7 +6,6 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -54,6 +53,7 @@ public class Action_T extends BaseClass {
 		System.out.println(price);
 		Thread.sleep(3000);
 		System.out.println("DanishDesktop");
+
 		
 		
 	}
@@ -61,7 +61,8 @@ public class Action_T extends BaseClass {
 	@Test(groups = "smoke")
 	public void RadioVutton_2() {
 		System.out.println("RadioVutton_2");
-		List<WebElement> urllist = Utilities.getObject().getDriver().findElements(By.tagName("a"));
+		Utilities.getObject();
+		List<WebElement> urllist = Utilities.getDriver().findElements(By.tagName("a"));
 		for (WebElement webElement : urllist) {
 			String url = webElement.getAttribute("href");
 			if (url != null && !url.isEmpty()) {
@@ -93,7 +94,6 @@ public class Action_T extends BaseClass {
 		try {
 			Assert.assertTrue(false);
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 
 	}
