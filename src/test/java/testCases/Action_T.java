@@ -1,12 +1,13 @@
 package testCases;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -25,7 +26,7 @@ public class Action_T extends BaseClass {
 	Listeners lsner;
 	WebDriver driver;
 
-	@Test(groups = "Regression")
+	@Test(groups = "smoke")
 	public void RadioVuttonClick() throws IOException {
 		util = Utilities.getObject();
 
@@ -38,7 +39,7 @@ public class Action_T extends BaseClass {
 		Listeners.getExtent().info("Button Clicked");
 	}
 
-	@Test
+	@Test(groups = "Regression")
 	public void downloadUploadTest() throws IOException, InterruptedException {
 		util = Utilities.getObject();
 		driver = Utilities.getDriver();
@@ -48,19 +49,36 @@ public class Action_T extends BaseClass {
 		String file = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\download.xlsx";
 		dnld.UploadFile(file);
 		
-		util.WaitTillElementInVisible(dnld.UploadAlert);
+		//util.WaitTillElementInVisible(dnld.UploadAlert);
 		util.WaitTillElementVisible(dnld.UploadAlert);
 		String price = driver.findElement(By.xpath("//div[contains(text(),'Apple')]//parent::div//following-sibling::div[2]")).getText();
 		System.out.println(price);
-		Thread.sleep(3000);
+		int priceint= Integer.parseInt(price);
+		Thread.sleep(1000);
+		System.out.println("DanishDesktop");
 		
-		
+		try {
+			assertEquals(priceint, 300);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			captureScreenShot("TestFail");
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void ScreeshotTest() throws IOException {
+		util = Utilities.getObject();
+		driver = Utilities.getDriver();
+		util.openUrl(util.getConfigProperty("uploadURL"));
+		//util.captureScreenShot("TestFail");
 	}
 
 	@Test(groups = "smoke")
 	public void RadioVutton_2() {
 		System.out.println("RadioVutton_2");
-		List<WebElement> urllist = Utilities.getObject().getDriver().findElements(By.tagName("a"));
+		Utilities.getObject();
+		List<WebElement> urllist = Utilities.getDriver().findElements(By.tagName("a"));
 		for (WebElement webElement : urllist) {
 			String url = webElement.getAttribute("href");
 			if (url != null && !url.isEmpty()) {
@@ -92,7 +110,6 @@ public class Action_T extends BaseClass {
 		try {
 			Assert.assertTrue(false);
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 
 	}
