@@ -30,7 +30,8 @@ public class Action_T extends BaseClass {
 		util = Utilities.getObject();
 
 		util.openUrl(util.getConfigProperty("url"));
-		WebElement button1 = Utilities.getObject().getDriver().findElement(By.xpath("//input[@value=\"radio1\"]"));
+		Utilities.getObject();
+		WebElement button1 = Utilities.getDriver().findElement(By.xpath("//input[@value=\"radio1\"]"));
 
 		Utilities.getObject().WWait(button1);
 		button1.click();
