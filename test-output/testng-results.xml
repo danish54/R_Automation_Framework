@@ -2,12 +2,21 @@
 <testng-results ignored="5" total="6" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-03-15T14:31:37 IST" name="Default suite" finished-at="2024-03-15T14:31:51 IST" duration-ms="13323">
     <groups>
     </groups>
     <test started-at="2024-03-15T14:31:37 IST" name="Default test" finished-at="2024-03-15T14:31:51 IST" duration-ms="13323">
       <class name="testCases.Action_T">
         <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:37 IST" name="launchBroswe" finished-at="2024-03-15T14:31:42 IST" duration-ms="4316" status="PASS">
+=======
+  <suite started-at="2024-03-15T14:31:46 IST" name="Default suite" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T14:31:46 IST" name="Default test" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
+      <class name="testCases.Action_T">
+        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
+>>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,6 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBroswe -->
+<<<<<<< HEAD
         <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:42 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:48 IST" duration-ms="6749" status="FAIL">
           <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
@@ -96,6 +106,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- downloadUploadTest -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:48 IST" name="teardown" finished-at="2024-03-15T14:31:51 IST" duration-ms="2185" status="PASS">
+=======
+        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:48 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:54 IST" duration-ms="5716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadUploadTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
+>>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

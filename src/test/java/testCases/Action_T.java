@@ -45,7 +45,7 @@ public class Action_T extends BaseClass {
 		util.openUrl(util.getConfigProperty("uploadURL"));
 		DownloadUploadPage dnld = new DownloadUploadPage(util);
 		//dnld.ClickOnDownload();
-		String file = "C:\\Users\\danish2545\\eclipse-workspace\\R_Automation\\src\\test\\resources\\TestData\\download.xlsx";
+		String file = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\download.xlsx";
 		dnld.UploadFile(file);
 		
 		util.WaitTillElementInVisible(dnld.UploadAlert);
