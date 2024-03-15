@@ -19,7 +19,7 @@ public class LinkReponseTest extends BaseClass{
 	Utilities util;
 	
 
-	@Test(groups = "Regression", enabled = false)
+	@Test(groups = "smoke", enabled = false)
 	public void reponseTest() throws IOException {
 		String urL = "https://rahulshettyacademy.com/brokenlink";
 		URL uRl = new URL(urL);

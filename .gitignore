@@ -1,13 +1,10 @@
-/target/**
-<<<<<<< HEAD
-/test-output/**
-/target/
+target/*
+test-output/*
 Logs/*
 Reports/*
 .classpath
 .metadata/*
 .project
 .settings/*
-=======
-/test-output/**
->>>>>>> a8986547ce4b16319ef38e91727e31e3556766d6
+reports/ScreenShots/*
+/target/

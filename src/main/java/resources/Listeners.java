@@ -1,5 +1,8 @@
 package resources;
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -13,12 +16,12 @@ public class Listeners extends BaseClass implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent = ExtendReportsNG.getExtentReportsObject();
 	static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
-	
+
 	public static ExtentTest getExtent() {
-		
+
 		return extentTest.get();
 	}
-	
+
 	public static Listeners getObject() {
 		Listeners lsner = new Listeners();
 		return lsner;
@@ -37,8 +40,15 @@ public class Listeners extends BaseClass implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		//WebDriver driver;
 		extentTest.get().fail(result.getThrowable());
-		
+		try {
+			//driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+			//String filepath = captureScreenShot(result.getMethod().getMethodName());
+			extentTest.get().addScreenCaptureFromPath(captureScreenShot(result.getMethod().getMethodName()),result.getMethod().getMethodName());
+		} catch (Exception e) {
+			extentTest.get().info(e.getMessage());
+		}
 	}
 
 	@Override
