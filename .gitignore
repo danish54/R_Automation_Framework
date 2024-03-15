@@ -1,4 +1,5 @@
 /target/**
+<<<<<<< HEAD
 /test-output/**
 /target/
 Logs/*
@@ -7,3 +8,6 @@ Reports/*
 .metadata/*
 .project
 .settings/*
+=======
+/test-output/**
+>>>>>>> a8986547ce4b16319ef38e91727e31e3556766d6
