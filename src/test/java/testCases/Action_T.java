@@ -53,6 +53,7 @@ public class Action_T extends BaseClass {
 		String price = driver.findElement(By.xpath("//div[contains(text(),'Apple')]//parent::div//following-sibling::div[2]")).getText();
 		System.out.println(price);
 		Thread.sleep(3000);
+		System.out.println("Danish");
 		
 		
 	}
