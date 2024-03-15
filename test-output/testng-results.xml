@@ -3,6 +3,7 @@
   <reporter-output>
   </reporter-output>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <suite started-at="2024-03-15T14:31:37 IST" name="Default suite" finished-at="2024-03-15T14:31:51 IST" duration-ms="13323">
     <groups>
     </groups>
@@ -17,6 +18,14 @@
       <class name="testCases.Action_T">
         <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
 >>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
+=======
+  <suite started-at="2024-03-15T14:31:46 IST" name="Default suite" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T14:31:46 IST" name="Default test" finished-at="2024-03-15T14:31:56 IST" duration-ms="9496">
+      <class name="testCases.Action_T">
+        <test-method is-config="true" signature="launchBroswe(java.lang.String)[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:46 IST" name="launchBroswe" finished-at="2024-03-15T14:31:48 IST" duration-ms="1603" status="PASS">
+>>>>>>> 80217e9f6e1989ed533b2239fb50c129cbae4b5f
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -25,6 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBroswe -->
+<<<<<<< HEAD
 <<<<<<< HEAD
         <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7ec3394b]" started-at="2024-03-15T14:31:42 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:48 IST" duration-ms="6749" status="FAIL">
           <exception class="org.openqa.selenium.InvalidArgumentException">
@@ -113,6 +123,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- downloadUploadTest -->
         <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
 >>>>>>> 1165d0b7996391e1aad9c4de7f61d443134cf1e5
+=======
+        <test-method signature="downloadUploadTest()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:48 IST" name="downloadUploadTest" finished-at="2024-03-15T14:31:54 IST" duration-ms="5716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadUploadTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Action_T@7756c3cd]" started-at="2024-03-15T14:31:54 IST" name="teardown" finished-at="2024-03-15T14:31:56 IST" duration-ms="2148" status="PASS">
+>>>>>>> 80217e9f6e1989ed533b2239fb50c129cbae4b5f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
