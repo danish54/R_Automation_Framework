@@ -14,4 +14,13 @@ public class Listcode {
         n.add(3);
         System.out.println(n.size());
     }
+
+    @Test
+    public void voovel(){
+        String s = "My name is danish";
+        boolean  b= s.toLowerCase().matches(".*[aeiou].*");
+        System.out.println(b);
+    }
+
+
 }
