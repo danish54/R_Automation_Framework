@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Listcode {
+public class ListCode {
 
     @Test
     void test(){
