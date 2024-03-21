@@ -1,19 +1,14 @@
 package resources;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
-import java.util.Date;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -95,6 +90,12 @@ public class Utilities {
 		System.out.println(codename);
 		return codename;
 	
+	}
+	
+	public void getColumnNumber(String Filepath, String sting) {
+		
+		String file = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData\\download.xlsx";
+		
 	}
 	
 	
