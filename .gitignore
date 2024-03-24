@@ -6,6 +6,9 @@ Reports/*
 .metadata/*
 .project
 .settings/*
+.git
+.idea
 reports/ScreenShots/*
 /target/
 fsf
+
