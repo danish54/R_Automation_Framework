@@ -1,4 +1,4 @@
-package JavaTop1;
+package javaTop1;
 
 import org.testng.annotations.Test;
 
