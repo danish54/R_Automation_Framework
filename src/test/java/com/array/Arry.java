@@ -1,4 +1,4 @@
-package javaTop1;
+package com.array;
 
 import org.testng.annotations.Test;
 
