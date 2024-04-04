@@ -75,6 +75,7 @@ public class Utilities {
 	public void WaitTillElementVisible(WebElement Elemtnt) {
 		Wait = new WebDriverWait(getDriver(), Duration.ofSeconds(3));
 		Wait.until(ExpectedConditions.visibilityOf(Elemtnt));
+
 	}
 	
 	public void WaitTillElementInVisible(WebElement Elemtnt) {

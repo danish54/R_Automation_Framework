@@ -24,7 +24,11 @@ public class findFrequentchar {
 
 		}
 		System.out.println(mo);
-		Set<Map.Entry<Character, Integer>> entry = mo.entrySet();
+		Set<Entry<Character, Integer>> entry = mo.entrySet();
+		
+		for(Map.Entry<Character, Integer> entry3: mo.entrySet()){
+			
+		}
 
 		char mostfrequestChar = '\0';
 		int frequency = 0;

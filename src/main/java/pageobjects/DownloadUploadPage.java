@@ -27,6 +27,7 @@ public class DownloadUploadPage {
 	public
 	WebElement UploadAlert;
 
+
 	public void ClickOnDownload() {
 		Download.click();
 
